@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <classes>
   <class name ='TCS.T1'>
-  <include method ="M2"></include>
+  
   </class>
   </classes>
   </test> <!-- Test -->

@@ -1,24 +1,27 @@
 package TCS;
 
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class T1 {
 
+	WebDriver driver  = null;
 	@Test
 	public void m1(){
-		System.out.println("m1");
+		driver = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		driver.get("https//google.com");
 	}
 	
-	@Test
-	public void m2(){
-		System.out.println("m2");
-	}
-	
-	@Test
-	public void m3(){
-		System.out.println("m3");
+	@AfterTest
+	public void tearDown(){
+		driver.quit();
 	}
 
 }
