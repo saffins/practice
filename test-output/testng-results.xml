@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="182" started-at="2019-10-19T13:51:24Z" finished-at="2019-10-19T13:51:25Z">
+  <suite name="Suite" duration-ms="26165" started-at="2019-10-21T15:34:27Z" finished-at="2019-10-21T15:34:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="182" started-at="2019-10-19T13:51:24Z" finished-at="2019-10-19T13:51:25Z">
-      <class name="TCS.T1">
-        <test-method status="PASS" signature="m1()[pri:0, instance:TCS.T1@8bd1b6a]" name="m1" duration-ms="46" started-at="2019-10-19T13:51:25Z" finished-at="2019-10-19T13:51:25Z">
+    <test name="Test" duration-ms="26165" started-at="2019-10-21T15:34:27Z" finished-at="2019-10-21T15:34:53Z">
+      <class name="TCS.HomepageTC">
+        <test-method status="PASS" signature="addTshirtToCart()[pri:0, instance:TCS.HomepageTC@68c4039c]" name="addTshirtToCart" duration-ms="17031" started-at="2019-10-21T15:34:36Z" finished-at="2019-10-21T15:34:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:TCS.T1@8bd1b6a]" name="m2" duration-ms="6" started-at="2019-10-19T13:51:25Z" finished-at="2019-10-19T13:51:25Z">
+        </test-method> <!-- addTshirtToCart -->
+        <test-method status="PASS" signature="verifyAddedProductToCart()[pri:0, instance:TCS.HomepageTC@68c4039c]" name="verifyAddedProductToCart" duration-ms="243" started-at="2019-10-21T15:34:53Z" finished-at="2019-10-21T15:34:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-      </class> <!-- TCS.T1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifyAddedProductToCart -->
+      </class> <!-- TCS.HomepageTC -->
+      <class name="TCS.LoginTC">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TCS.LoginTC@3532ec19]" name="setup" is-config="true" duration-ms="29114" started-at="2019-10-21T15:33:58Z" finished-at="2019-10-21T15:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TCS.LoginTC@3532ec19]" name="login" duration-ms="8761" started-at="2019-10-21T15:34:27Z" finished-at="2019-10-21T15:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TCS.LoginTC@3532ec19]" name="tearDown" is-config="true" duration-ms="1230" started-at="2019-10-21T15:34:54Z" finished-at="2019-10-21T15:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TCS.LoginTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

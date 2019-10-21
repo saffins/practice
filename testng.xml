@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-  <class name ='TCS.T1'>
+    <class name ='TCS.LoginTC' />
+    <class name ='TCS.HomepageTC' />
   
-  </class>
+  
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
